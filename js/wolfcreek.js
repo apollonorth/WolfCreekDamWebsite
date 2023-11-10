@@ -1,7 +1,6 @@
 /* 
 Filename: wolfcreek.js
 Name: Apollo Schaefer
-Lab: 04 Part 04
 Date: 2023-10-28 SAT T 23:59:00 Z-04:00
 
 Requires: HTML pages that link to this JavaScript file and use its functions.
