@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wolf Creek Dam</title>
+	<link rel="stylesheet" href="css/wolfcreek.css"> <!-- Link to stylesheet css file -->
+	<style></style>
+	<script src="js/wolfcreek.js"></script>
+	<!-- Class: COSC 231.10 -->
+	<!-- Name: Apollo Schaefer -->
+	<!-- EID: 02197111 -->
+	<!-- Lab: 04 (Part 2) -->
+	<!-- Date: 2023-10-07 SAT T 23:59:00 Z-04:00 -->
+
+	<!-- Requires: 12 html files labeled 2019_NN.html where NN is a number 01-12, and one file index.html. -->
+	<!-- also requires a subdirectory "css" containing the wolfcreek.css file -->
+
+	<!-- Description: This file displays an index page for webpages containing a given month of data recordings from Wolf Creek Dam, and allows navigation to other months of data and a site home page -->
+</head>
+<body>
+    <div id="top"></div>
+    <!-- Navigation menu to access other tables/index page -->
+	<div id="navmenu_div" class="navbarouter">
+		<button id="nav_button" onclick="showhide_nav_menu(this)">Hide Menu</button>
+		<div id="navbar" class="navbar">
+			<div class="nav_list"><p>Maps &amp; Charts:</p></div>
+			<div class="nav_list">	
+				<a href="index.html">Main</a>
+				<a href="2019_maps.html">Maps</a>
+				<a href="2019_charts.html">Charts</a>
+				<a href="2019_weblinks.html">Weblinks</a>
+			</div>	
+
+			<div class="nav_list"><p>Hourly Readings by Month:</p></div>
+			<div class="nav_list">
+				<a href="2019_01.html">2019-01</a>
+				<a href="2019_02.html">2019-02</a>
+				<a href="2019_03.html">2019-03</a>
+				<a href="2019_04.html">2019-04</a>
+				<a href="2019_05.html">2019-05</a>
+				<a href="2019_06.html">2019-06</a>
+			</div>	
+			<div class="nav_list">	
+				<a href="2019_07.html">2019-07</a>
+				<a href="2019_08.html">2019-08</a>
+				<a href="2019_09.html">2019-09</a>
+				<a href="2019_10.html">2019-10</a>
+				<a href="2019_11.html">2019-11</a>
+				<a href="2019_12.html">2019-12</a>
+			</div> <!-- END	<div id="nav_list"> -->
+		</div> <!-- END of <div id="navbar" class="navbar"> -->
+	</div> <!-- END <div id="navmenu_div"> --><!-- Two lines of header seperated by br tag -->
+
+    <h1 class="major_format">
+        Wolf Creek Dam &amp; Lake Cumberland
+        <br>
+        Information Pages
+    </h1>
+    <hr>
+    <div class="images">
+        <p class="major_format">Wolf Creek Dam:</p>
+		<a class="major_format" title="U.S. Army Corps of Engineers from USA, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wolf_Creek_Dam_-_2011.jpg">
+			<img width="512" alt="Wolf Creek Dam - 2011" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Wolf_Creek_Dam_-_2011.jpg/512px-Wolf_Creek_Dam_-_2011.jpg">
+		</a>
+    </div>
+    <div class="major_format">
+		<a href="https://commons.wikimedia.org/wiki/File:Wolf_Creek_Dam_-_2011.jpg">U.S. Army Corps of Engineers from USA</a>, 	
+		Public domain, via Wikimedia Commons
+	</div>
+	<hr>
+    <!-- copyright symbol and name -->
+    <div id="copyright">
+        <p class="major_format">&copy; 2023 - Apollo Schaefer</p>
+    </div>
+</body>
+</html>
