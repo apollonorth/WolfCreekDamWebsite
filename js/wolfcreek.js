@@ -1,9 +1,6 @@
 /* 
 Filename: wolfcreek.js
-
-Class: COSC 231.10
 Name: Apollo Schaefer
-EID: 02197111
 Lab: 04 Part 04
 Date: 2023-10-28 SAT T 23:59:00 Z-04:00
 
